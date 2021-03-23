@@ -1,0 +1,28 @@
+var config = module.exports = {};
+
+config.prefix = '$'; // Prefix of the command to look for
+// config.defaultUpdateRate = 60000;
+config.cleanOnStart = true; // Delete own messages when starting up
+
+// botname
+// botimage
+
+config.servers = [
+    {
+        id: 1,     
+        host: '',   
+        port: '',     
+        password: '',    
+        channel: '',      
+        updateRate: 60000   
+        enableRefresh: true    
+        includePlayerList: true    
+        allowSummonCommand: true       
+        enableStaticServerMessage: true  
+    },
+];
+
+// Name translations and thumbnails for the maps that could be running on the server.
+config.mapTranslations = {
+    'map_name' : {name: 'Translated Name', image: 'Image URL'},
+}

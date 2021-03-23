@@ -1,0 +1,3 @@
+- Transfer pictures to imgur
+- Bot name & Avatar from config
+- Allow more advanced commands per server
