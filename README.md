@@ -63,7 +63,7 @@ config.servers = [
         summonCommand: 'string',            // Custom command to listen for combined with the global prefix. (i.e. prefix+summonCommand). Only works if `allowSummonCommand` is enabled for this server
         enableStaticServerMessage: true     // Enable if the bot will post a server info on startup and keep updating it
     },
-   
+    // ... as many as you like
 ];
 
 // Name translations and thumbnails for the maps that could be running on the server.
