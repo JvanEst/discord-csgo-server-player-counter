@@ -15,7 +15,7 @@ A Discord bot that allows you to monitor (multiple) CSGO servers.
 
 ## Quickstart
 
-Install [PM2](https://pm2.keymetrics.io/docs/usage/quick-start/)
+1. Install [PM2](https://pm2.keymetrics.io/docs/usage/quick-start/)
 
 ```sh
 $ npm install pm2@latest -g
@@ -23,19 +23,19 @@ $ npm install pm2@latest -g
 $ yarn global add pm2
 ```
 
-Setup the `.env` and `config.js` file.
+2. Setup the `.env` and `config.js` file.
 
 Set your Discord bot token in the `.env`, `DISCORD_TOKEN` field.
 
 Modify the `config.js` to your liking.
 
-Start the Discord bot:
+3. Start the Discord bot:
 
 ```
 pm2 start
 ```
 
-Profit.
+4. Profit.
 
 ## Configuration
 ```js
