@@ -114,7 +114,7 @@ class serverMonitor {
             playerEmbed.addField('Command', configHelper.getJoinConsoleCommand(this.server.id))
                 .addField('Link', configHelper.getJoinLink(this.server.id))
                 .setTimestamp()
-                .setFooter(process.env.BOT_NAME + " Last updated at:", 'https://cdn.mee6.xyz/guild-images/597787815379730442/547e1828fe4221430faa95fabac1214503efdfa8f9954f4a30bc46c72f1af47e.png');
+                .setFooter(process.env.BOT_NAME + " Last updated at:", '');
 
             callback(playerEmbed);
         })
@@ -126,7 +126,7 @@ class serverMonitor {
             .setTitle("Loading")
             .setDescription("Loading, please wait...")
             .setTimestamp()
-            .setFooter(process.env.BOT_NAME, 'https://cdn.mee6.xyz/guild-images/597787815379730442/547e1828fe4221430faa95fabac1214503efdfa8f9954f4a30bc46c72f1af47e.png');
+            .setFooter(process.env.BOT_NAME, '');
 
         return loadingEmbed;
     }
@@ -137,7 +137,7 @@ class serverMonitor {
             .setTitle("Offline")
             .setDescription("This server is currently offline")
             .setTimestamp()
-            .setFooter(process.env.BOT_NAME, 'https://cdn.mee6.xyz/guild-images/597787815379730442/547e1828fe4221430faa95fabac1214503efdfa8f9954f4a30bc46c72f1af47e.png');
+            .setFooter(process.env.BOT_NAME, '');
 
         return offlineEmbed;
     }
