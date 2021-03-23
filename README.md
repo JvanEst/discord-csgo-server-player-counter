@@ -2,6 +2,8 @@
 ___
 A Discord bot that allows you to monitor (multiple) CSGO servers.
 
+The bot when configured will post a message to the configured discord channel and update this message with new information about the server.
+
 ![](https://i.imgur.com/vuvtXqr.png)
 ![](https://i.imgur.com/AqhfyEN.png)
 
