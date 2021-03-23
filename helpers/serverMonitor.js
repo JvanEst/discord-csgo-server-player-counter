@@ -114,7 +114,7 @@ class serverMonitor {
             playerEmbed.addField('Command', configHelper.getJoinConsoleCommand(this.server.id))
                 .addField('Link', configHelper.getJoinLink(this.server.id))
                 .setTimestamp()
-                .setFooter(process.env.BOT_NAME + " Last updated at:", '');
+                .setFooter(config.botName + " Last updated at:", config.botAvatar);
 
             callback(playerEmbed);
         })
@@ -126,7 +126,7 @@ class serverMonitor {
             .setTitle("Loading")
             .setDescription("Loading, please wait...")
             .setTimestamp()
-            .setFooter(process.env.BOT_NAME, '');
+            .setFooter(config.botName, config.botAvatar);
 
         return loadingEmbed;
     }
@@ -137,7 +137,7 @@ class serverMonitor {
             .setTitle("Offline")
             .setDescription("This server is currently offline")
             .setTimestamp()
-            .setFooter(process.env.BOT_NAME, '');
+            .setFooter(config.botName, config.botAvatar);
 
         return offlineEmbed;
     }

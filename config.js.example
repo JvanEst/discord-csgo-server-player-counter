@@ -4,8 +4,8 @@ config.prefix = '$'; // Prefix of the command to look for
 // config.defaultUpdateRate = 60000;
 config.cleanOnStart = true; // Delete own messages when starting up
 
-// botname
-// botimage
+config.botName = "Name of the Bot";
+config.botAvatar = "Image URL of the avatar";
 
 config.servers = [
     {

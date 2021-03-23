@@ -19,7 +19,8 @@ client.on('ready', () => {
 
     console.log(`Logged in as ${client.user.tag}!`);
     client.user.setActivity("Not loaded yet");
-//   client.user.setUsername(process.env.BOT_NAME);
+    client.user.setUsername(config.botName);
+    client.user.setAvatar(config.botAvatar);
 
 
     // Start each server monitor

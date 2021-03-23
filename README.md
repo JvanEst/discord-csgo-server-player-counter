@@ -18,8 +18,8 @@ A Discord bot that allows you to monitor (multiple) CSGO servers.
 config.prefix = 'string'; // Prefix of the command to look for
 config.cleanOnStart = true; // Delete own messages when starting up
 
-// botname
-// botimage
+config.botName = "Name of the Bot";
+config.botAvatar = "Image URL of the avatar";
 
 config.servers = [
     {
