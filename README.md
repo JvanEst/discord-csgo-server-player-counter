@@ -21,6 +21,8 @@ config.cleanOnStart = true; // Delete own messages when starting up
 config.botName = "Name of the Bot";
 config.botAvatar = "Image URL of the avatar";
 
+config.defaultSummonCommand = 'players'; // Default command to listen for combined with the global prefix. (i.e. prefix+summonCommand). Only works if `allowSummonCommand` is enabled for that server
+
 config.servers = [
     {
         id: 1,                              // Unique ID for this server, can be anything
@@ -32,6 +34,7 @@ config.servers = [
         enableRefresh: true,                // Add an refresh reaction, which when clicked will refresh the server info
         includePlayerList: true,            // Display a player list with the server info
         allowSummonCommand: true,           // Allow a seperate server info to be summoned with a command
+        summonCommand: 'string',            // Custom command to listen for combined with the global prefix. (i.e. prefix+summonCommand). Only works if `allowSummonCommand` is enabled for this server
         enableStaticServerMessage: true     // Enable if the bot will post a server info on startup and keep updating it
     },
    

@@ -7,6 +7,8 @@ config.cleanOnStart = true; // Delete own messages when starting up
 config.botName = "Name of the Bot";
 config.botAvatar = "Image URL of the avatar";
 
+config.defaultSummonCommand = 'players';
+
 config.servers = [
     {
         id: 1,     
@@ -17,7 +19,8 @@ config.servers = [
         updateRate: 60000   
         enableRefresh: true    
         includePlayerList: true    
-        allowSummonCommand: true       
+        allowSummonCommand: true
+        summonCommand: '',       
         enableStaticServerMessage: true  
     },
 ];

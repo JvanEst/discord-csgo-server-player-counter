@@ -38,7 +38,7 @@ class serverMonitor {
         if (this.server.allowSummonCommand) {
             this.client.on('message', msg => {
                 if (msg.channel.id == this.channel.id) {
-                    if (msg.content === config.prefix + 'players') {
+                    if (msg.content === config.prefix + configHelper.getSummonCommand(this.server)) {
                         msg.react('👍');
                         this.getPlayers((embed) => {
                             msg.channel.send(embed);

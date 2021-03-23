@@ -54,6 +54,10 @@ function getServerById(id) {
     return server;
 }
 
+function getSummonCommand(server) {
+    return server.summonCommand ? server.summonCommand : config.defaultSummonCommand;
+}
+
 module.exports = {
     getAllLinkedChannels,
     getMapTranslation,
@@ -63,5 +67,6 @@ module.exports = {
     getConnectionHostAndPort,
     hasPassword,
     getPassword,
-    getServerById
+    getServerById,
+    getSummonCommand
 };
