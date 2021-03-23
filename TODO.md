@@ -1,3 +1,1 @@
-- Transfer pictures to imgur
-- Bot name & Avatar from config
-- Allow more advanced commands per server
+Suggestions? Make an issue or add them with a pull-request!
