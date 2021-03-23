@@ -25,4 +25,15 @@ config.servers = [
 // Name translations and thumbnails for the maps that could be running on the server.
 config.mapTranslations = {
     'map_name' : {name: 'Translated Name', image: 'Image URL'},
+
+
+    // Current map pool, to get you start
+    'de_mirage' : {name: 'Mirage', image: 'https://i.imgur.com/xjEli2s.jpg'},
+    'de_dust2' : {name: 'Dust 2', image: 'https://i.imgur.com/eGwimLf.jpg'},
+    'de_inferno' : {name: 'Inferno', image: 'https://i.imgur.com/aMpa93Q.jpg'},
+    'de_vertigo' : {name: 'Vertigo', image: 'https://i.imgur.com/4oFmbgD.jpg'},
+    'de_nuke' : {name: 'Nuke', image: 'https://i.imgur.com/DRsLlYI.jpg'},
+    'de_train' : {name: 'Train', image: 'https://i.imgur.com/i95lQQi.jpg'},
+    'de_overpass' : {name: 'Overpass', image: 'https://i.imgur.com/huI5fRj.jpg'},
+    'de_cache': {name: 'Cache', image: 'https://i.imgur.com/1UpER3y.jpg'}
 }

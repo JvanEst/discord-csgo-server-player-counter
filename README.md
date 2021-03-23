@@ -8,7 +8,7 @@ A Discord bot that allows you to monitor (multiple) CSGO servers.
 ## Features
 - Monitor multiple servers
 - Allow your users to quickly see how full and who is in the server
-- Easy join link through stream or more conventional command
+- Easy join link through steam or more conventional command
 - Doesn't need a RCON connection
 - Auto-updating information
 - Possibility to summon by command or be static in a channel
@@ -42,3 +42,5 @@ config.mapTranslations = {
     'map_name' : {name: 'Translated Image', image: 'Image URL'},
 }
 ```
+
+For the most common map thumbnails, see this imgur post: https://imgur.com/a/t5CSK0n
